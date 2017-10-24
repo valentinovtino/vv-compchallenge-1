@@ -1,0 +1,204 @@
+body{
+	display: flex;
+	height: 100vh;
+}
+
+h1 {
+    font-size: 400%;
+    margin: 2%;
+    color: #FFFFFF;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h3{
+	color: #FFFFFF;
+	font-weight: lighter;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 100%;
+	margin: 7px;
+}
+
+p {
+	font-size: 100%;
+	margin:2%;
+	font-family: 'Forum', cursive;
+	color: #FFFFFF;
+
+}
+
+button{
+	border-color: #FFFFFF;
+	background: none;
+    width: 40%;
+    height: 15%;
+    margin: 2%;
+    color: #FFFFFF;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+}
+
+span {
+	display: flex;
+	justify-content: space-between;
+	/*align-self: center;*/
+	align-items: center;
+	margin-top: 200px
+}
+
+
+.flex-container {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	background-color: grey;
+}
+
+.left-side {
+  flex: 3;
+  display: flex;
+ /* height: 100vh;*/
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  background-color: red;
+
+}
+
+.box { 
+ flex-direction:column-reverse;
+ display: flex;
+ width: 33.3333%;
+ height: 33.3333%;
+ justify-content: center;
+ align-items: center;
+}
+
+.right-side {
+	/*flex: 2;*/
+	width: 40%
+	display: flex;
+	background-image: url("http://dazedimg.dazedgroup.netdna-cdn.com/786/azure/dazed-prod/1170/0/1170527.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	justify-content: flex-end;
+}
+
+.toggle{
+	margin-left: 500px;
+}
+
+.box1{
+	background-color: #837D76;
+	/*flex:2;*/
+	width: 66.6666%;
+	height: 33.3333%;
+}
+
+.box2{
+	background-color: #0F0C17;
+	
+}
+
+.box3{
+	background-color: #3B3E63;
+	
+}
+
+.box4{
+	background-color: #572720;
+	
+}
+
+.box5{
+	background-color: #2C283F;
+	
+}
+
+.box6{
+	background-color: #572720;
+
+}
+
+.box7{
+	background-color: #665F5D;
+	
+}
+
+.box8{
+	background-color: #572720;
+	
+}
+
+@media only screen and (max-width: 1224px) {
+	h1{
+		font-size: 200%
+	}
+
+	p{
+		font-size: 100%
+	}
+
+	button{
+		font-size: 100%
+	}
+
+}
+
+@media only screen and (max-width: 935px) {
+	.flex-container {
+	display: flex;
+	flex-direction: column-reverse;
+	width: 100%;
+	height: 100%;
+	background-color: grey;
+	}
+
+
+	.left-side{
+		height: 60%
+	}
+
+	.right-side{
+		height: 40%;
+		background-position: top;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.left-side{
+		width: 100%
+	}
+
+	.right-side{
+		width: 100%;
+	}
+
+	h1{
+		font-size: 10%
+	}
+
+	span {
+		margin-top: 100px
+	}
+
+	p{
+		font-size: 10%
+	}
+
+	button{
+		font-size: 10%
+	}
+}
+
+
+
+
+
+
+
+
+
